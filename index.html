@@ -14,20 +14,10 @@
         font-family: sans-serif;
         color: #333333;
         border: 0;
+        width: 100%;
         
-      }
-
-      tr {
-          margin: 0;
-          padding: 0;
-      }
-
-      td {
-          padding: 0;
-          margin: 0;
-      }
-
-
+      } 
+      
       .padding-reset {
           padding-left: 30px;
           padding-right: 30px;
@@ -37,7 +27,8 @@
       #wrapper {
         width: 100%;
         max-width: 600px;
-        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
         padding-top: 20px;
         padding-bottom: 20px;
         border: 0;
@@ -403,8 +394,10 @@
                     <p style="margin-top: -20px; font-size: 14px;">Prices for deals above are for itineraries with departure dates between 10/05/2021 and 10/19/2021. Book your getaway today!</p>
                 </td>
             </tr>
-            <!-- VIP  -->
-            <table style="margin-left: auto; margin-right: auto; background-color: royalblue; width: 500px; padding-bottom: 40px;">
+            <!-- VIP  --> 
+            <tr>
+                <td>
+                    <table style="background-color: royalblue; margin-left: auto; margin-right: auto; margin-top: 40px; margin-bottom: 40px;  width: 500px; padding-bottom: 40px;" cellspacing="0" cellpadding="0">
             <tr>
                 <td>
                     <h4 style="font-size: 22px; font-weight: normal; color: yellow;">Affirminc, you're a VIP Blue!</h4>
@@ -414,9 +407,13 @@
                 </td>
             </tr>
         </table>
+                </td>
+            </tr>
+            
         <!-- Travel Support -->
-
-        <table style="margin-left: auto; margin-right: auto; margin-top: 40px; margin-bottom: 40px;  width: 600px;" cellspacing="0" cellpadding="0">
+        <tr>
+            <td>
+                <table style="margin-left: auto; margin-right: auto; margin-top: 40px; margin-bottom: 40px;  width: 600px;" cellspacing="0" cellpadding="0">
             <tr>
                 <td style="background-color: royalblue; padding-top: 10px; padding-bottom: 10px;">
                     <a href="#" style="text-decoration: none; color: #ffffff; text-transform: uppercase; letter-spacing: 3px; font-weight: bold;">Travel Support</a>
@@ -430,13 +427,17 @@
                 </td>
             </tr>
         </table>
+            </td>
+        </tr>
+
+        
         <!-- Bottom Navbar -->
         <tr>
             <td>
                 <p style="font-size: 14px;">Don't see the deal you want? Check out our thousands of other deals!</p>
             </td>
         </tr>
-        <table style="width: 600px; font-size: 16px; margin-left: auto; margin-right: auto; text-align: center;">
+
         <tr>
             <td style="padding-top: 30px;">
                 <a href="#" style="background-color: royalblue; padding-top: 15px; padding-bottom: 15px; padding-left: 20px; padding-right: 20px; text-decoration: none; color: #ffffff; margin-right: 5px; margin-left: 5px;">Hotel</a>
@@ -446,10 +447,12 @@
                 <a href="#" style="background-color: royalblue; padding-top: 15px; padding-bottom: 15px; padding-left: 20px; padding-right: 20px; text-decoration: none; color: #ffffff; margin-right: 5px; margin-left: 5px;">Cruises</a>
             </td>
         </tr>
-    </table>
+       
 
     <!-- Socials -->
-    <table style="width: 200px; font-size: 16px; margin-left: auto; margin-right: auto; text-align: center; margin-top: 40px; margin-bottom: 20px;">
+    <tr>
+        <td>
+             <table style="width: 200px; font-size: 16px; margin-left: auto; margin-right: auto; text-align: center; margin-top: 40px; margin-bottom: 20px;">
         <tr>
         <td>
             <p>Follow Us:</p>
@@ -462,6 +465,9 @@
         </td>
     </tr>
     </table>
+        </td>
+    </tr>
+   
 
     <!-- Terms & Conditions -->
     <tr>
@@ -473,15 +479,17 @@
     </tr>
 <!-- Footer Links -->
     <tr>
-        <td>
-            <a href="#" style="font-size: 14px; text-decoration: none; color: royalblue; margin-right: 20px; margin-left: 20px; text-transform: uppercase;">Customer care</a>
-            <a href="#" style="font-size: 14px; text-decoration: none; color: royalblue; margin-right: 20px; margin-left: 20px; text-transform: uppercase;">email preferences</a>
-            <a href="#" style="font-size: 14px; text-decoration: none; color: royalblue; margin-right: 20px; margin-left: 20px; text-transform: uppercase;">privacy policy</a>
+        <td style="display: inline-block;">
+            <a href="#" style="font-size: 12px; text-decoration: none; color: royalblue; margin-right: 20px; margin-left: 20px; text-transform: uppercase;">Customer care</a>
+            <a href="#" style="font-size: 12px; text-decoration: none; color: royalblue; margin-right: 20px; margin-left: 20px; text-transform: uppercase;">email preferences</a>
+            <a href="#" style="font-size: 12px; text-decoration: none; color: royalblue; margin-right: 20px; margin-left: 20px; text-transform: uppercase;">privacy policy</a>
         </td>
     </tr>
     
     <!-- Company Info -->
-    <table style="width: 100%; margin-top: 20px; font-size: 14px; padding-bottom: 30px;">
+    <tr>
+        <td>
+            <table style="width: 100%; margin-top: 20px; font-size: 14px; padding-bottom: 30px;">
         <tr>
             <td>
                 <p>
@@ -498,6 +506,9 @@
             </td>
         </tr>
     </table>
+        </td>
+    </tr>
+    
     </table>
   </body>
 </html>
